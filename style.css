@@ -1,0 +1,29 @@
+.board {
+    display: flex;
+    background-color: blue;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.cell {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border: 3px solid brown;
+}
+
+.lightcell {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAYklEQVQoU2MUzlP9z4AErCMZGI4uRxaBsBmRFYIUwQC6YtIVIpuGzVS4iUQpxKYI3VSwicgKzSe9YDiZJ4HhKUa/46jBg64QpAMUAii+BgkWvX7B0CeKMBFmNIZCzKCGiAAAI1spfbSN7hEAAAAASUVORK5CYII=)
+    repeat;
+}
+
+.darkcell {
+    background-color: black;
+}
+
+.redChecker {
+    background-color: brown;
+    width: 45px;
+    height: 45px;
+
+}
